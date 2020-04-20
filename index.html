@@ -1,9 +1,21 @@
+    <!DOCTYPE html>
+<!-- Black-Hole: A black hole for Internet advertisements
+*  (c) 2017 Black-Hole
+*  Network-wide ad blocking via your own hardware. -->
 
-
-    <html><head>
+    <html>
+    <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+        <title>Black-Hole: Network-wide Ad Blocking</title>
+        <!-- Usually browsers proactively perform domain name resolution on links that the user may choose to follow. We disable DNS prefetching here -->
+        <meta http-equiv="x-dns-prefetch-control" content="off">
+        <meta http-equiv="cache-control" content="max-age=60,private">
+        <!-- Tell the browser to be responsive to screen width -->
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon" />
         <link rel='stylesheet' href='/blackhole/blockingpage.css' type='text/css'/>
-    </head><body id='splashpage'><img src='http://64.225.43.126/admin/img/logo.svg'/><br/>Black-<b>Hole</b>: Your black hole for Internet advertisements
+    </head>
+    <body id='splashpage'><img src='/img/logo.svg'/><br/>Black-<b>Hole</b>: Your black hole for Internet advertisements
 
     <br>A black hole for Internet advertisements
     <br>Network-wide Ad Blocking
